@@ -51,12 +51,12 @@ spec:
 
 1. Обновление версии nginx в приложении до версии 1.20, сократив время обновления до минимума. Приложение должно быть доступно.
 
-![screenshot1]()
+![screenshot1](https://github.com/YuriKopshev/kubeadm_hw/blob/update-app/img/Screenshot1.png)
 
 2. Попытка обновить nginx до версии 9.99
 
-![screenshot2]()
+![screenshot2](https://github.com/YuriKopshev/kubeadm_hw/blob/update-app/img/Screenshot2.png)
 
-3. Откатит после неудачного обновления
+3. Откат после неудачного обновления
 
-![screenshot3]()
+![screenshot3](https://github.com/YuriKopshev/kubeadm_hw/blob/update-app/img/Screenshot3.png)
