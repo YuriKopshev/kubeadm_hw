@@ -1,0 +1,12 @@
+apiVersion: kind.x-k8s.io/v1alpha4
+kind: Cluster
+name: production-cluster
+nodes:
+  # 1 Мастер-нода (Control Plane)
+  - role: control-plane
+  
+  # 4 Рабочие ноды (Worker Nodes)
+  - role: worker
+  - role: worker
+  - role: worker
+  - role: worker
